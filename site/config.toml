@@ -1,0 +1,225 @@
+# Main config file for icon theme.
+theme = "hugo-icon"
+baseURL = "/"
+languageCode = "en-US"
+title = "Commonplace Book | LitFin"
+
+# Metadata
+[params]
+  author = "Joe DePumpo"
+  description = "Cool description"
+
+# Hero section (from here on is for icon theme)
+[params.hero]
+  img = "images/hero_bg.gif"
+  title = "Duelling Dystopias"
+  description = "A Commonplace Repository for LitFin"
+
+# Navigation section
+[params.nav]
+  mission = "The Books"
+  services = "Themes & Entries"
+  team = "Me"
+  contact = "Get In Touch"
+  # Include logo instead if HOME:
+  # logo = "path/to/logo"
+
+# Mission section
+[params.mission]
+  enable = true
+
+  [params.mission.images]
+    enable = true
+
+    [[params.mission.images.list]]
+      img = "images/img_3.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_2.jpg"
+    [[params.mission.images.list]]
+      img = "images/img_1.jpg"
+    [[params.mission.images.list]]
+      img = "images/WarningGif.gif"
+
+  [[params.mission.item]]
+    weight = 1
+    name = "marketing"
+    title = "The Books"
+    subtitle = "We read a number of texts, from short stories to entire novels, as part of the syllabus for Topics in Literature and Finance. The genres, eras, and characters varied widely, but they all had something to do with money, and how finance is viewed through the lens of literature."
+    description = "<p>To the right you'll find just a few of the texts that we read. Below, you'll find a selection of themes that continually cropped up throughout many of the texts, follwed by a selection of entries into what I am calling my Commonplace Repository. These entries will give my thoughts on a particular text, or section of a text. They also contain a quote from the text that I found particularly enlightening.</p>"
+
+# Services section
+[params.services]
+  enable = true
+  video = false
+  vidlink = "#"
+  title = "Themes"
+  description = "Here are some of the main themes I found while working with the texts on our syllabus."
+
+  [[params.services.item]]
+    icon = "icon-star"
+    title = "Religion"
+    description = "After reading Parable of the Sower and the poems that opened the class, I was quite surprised how much religion influenced many of the works we read."
+
+  [[params.services.item]]
+    icon = "icon-eye"
+    title = "Privacy"
+    description = "Cryptonomicon and The Circle highlighted the importance that we place on privacy, even if we don't realize it."
+
+  [[params.services.item]]
+    icon = "icon-user"
+    title = "Labor"
+    description = "Bartleby was one of my favorite texts, precisely because it highlighted and analyzed the relationship between the employee and the employer, and the conflict that can create."
+
+  [[params.services.item]]
+    icon = "icon-pencil"
+    title = "Personal Agency"
+    description = "The texts that were influenced by religion and The Circle provided an analysis of personal agency. Cryptonomicon perhaps provides a tool to help regain our agency."
+
+  [[params.services.item]]
+    icon = "icon-lock"
+    title = "Cryptography"
+    description = "If you are not encrypting your communications, they are being exploited."
+
+  [[params.services.item]]
+    icon = "icon-support"
+    title = "Social Welfare"
+    description = "Sometimes our obligation to society must trump economic gain so that we may all benefit in the longterm."
+
+# Work section
+[params.work]
+  enable = true
+
+  [[params.work.item]]
+    title = "Churches — Ornate and Mad"
+    subtitle = "Money, Philip Larkin"
+    img = "images/pope1.jpeg"
+    id = "#popup1"
+
+  [[params.work.item]]
+    title = "Am I Not A Man and A Brother?"
+    subtitle = "Mathew 25:14-30, The Holy Bible"
+    img = "images/slavery.jpg"
+    id = "#popup2"
+
+  [[params.work.item]]
+    title = "Never Play the Game Too Long"
+    subtitle = "Still The Same, Bob Seger & The Silver Bullet Band"
+    img = "images/seger.jpeg"
+    id = "#popup3"
+
+  [[params.work.item]]
+    title = "Jugglers, Sorcerers, and Witches, Oh My"
+    subtitle = "Comedy of Errors, William Shakespeare"
+    img = "images/COE.jpeg"
+    id = "#popup4"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/codeMatrix.gif"
+    id = "#popup5"
+
+  [[params.work.item]]
+    title = "Shipwrecked"
+    subtitle = "Robinson Crusoe, Daniel Defoe"
+    img = "images/costa.jpg"
+    id = "#popup6"
+
+  [[params.work.item]]
+    title = "Scrivening into a Tizzy"
+    subtitle = "Bartleby, the Scrivener, Herman Melville"
+    img = "images/screaming.png"
+    id = "#popup7"
+
+  [[params.work.item]]
+    title = "Irish Phrenology"
+    subtitle = "McTeague, Frank Norris"
+    img = "images/phren.jpg"
+    id = "#popup8"
+
+  [[params.work.item]]
+    title = "Olivar and Flint"
+    subtitle = "Parable of the Sower, Octavia Butler"
+    img = "images/flint.png"
+    id = "#popup9"
+
+  [[params.work.item]]
+    title = "I Can't Escape Gmail"
+    subtitle = "The Circle, Dave Eggers"
+    img = "images/goolag.png"
+    id = "#popup10"
+
+  [[params.work.item]]
+    title = ""
+    subtitle = ""
+    img = "images/gif_4.gif"
+    id = "#popup11"
+
+  [[params.work.item]]
+    title = "Don't Be Evil"
+    subtitle = "Cryptonomicon, Neal Stephenson"
+    img = "images/snowden.jpg"
+    id = "#popup12"
+
+
+# Team section
+[params.team]
+  enable = true
+  title = "Me"
+  description = "You've reached the best section of the page, the part about me."
+
+  [[params.team.item]]
+    name = ""
+    position = "Reading & Writing Bio"
+    description = "I love to read. I wish I alotted myself more time for it, but there is always an excuse. I used to purely read fiction -- particularly crime and spy thrillers -- but I've found as I've gotten older that I've embraced non-fiction more and more. Right now in my reading queue I have a mix of both, from Cormac McCarthy's 'Blood Meridian,' to ‘Comandante: Hugo Chávez’s Venezuela,’ by Rory Carroll. <br> ... <br> As far as writing goes, I've also found that my taste has changed over time. I used to only enjoy writing short fiction stories, particularly in high school -- I hated writing the more academic, persuasive pieces. With practice, I've come to love these argumentative, persuasive essays because there is nothing like staking claim to your own idea or thought and convincing others of it's validity. You can have a lot of fun attacking other peoples ideas, defending your own, or ideally finding the perfect balance between the two."
+    img = "#"
+  # facebook = "#"
+  #  twitter = "https://twitter.com/jdepumpo"
+  # dribbble = "#"
+  # instagram = "#"
+  #  github = "https://github.com/jdepumpo"
+  #  linkedin = "www.linkedin.com/in/jdepumpo"
+
+
+  [[params.team.item]]
+    name = "Joe DePumpo"
+    position = "Roving Correspondent"
+    description = ""
+    img = "images/me.jpg"
+  # facebook = "#"
+    twitter = "https://twitter.com/jdepumpo"
+  # dribbble = "#"
+  # instagram = "#"
+    github = "https://github.com/jdepumpo"
+    linkedin = "www.linkedin.com/in/jdepumpo"
+
+  [[params.team.item]]
+    name = ""
+    position = "Self-Assesment"
+    description = "Some of the main themes that I took from the books and short stories that we read centered around, religion, labor and labor rights, and cryptography. At first, these themes don't really appear to be related, however, I was able to find threads that tie these themes and books together in ways that make them particularly interesting and relevant to today's society when taken as a whole. For example, the religious aspects that we analyzed in 'Money' by Philip Larkin and The Parable of the Talents highlighted to me the need for personal agency. This linked perefctly with Bartleby, which provided an excellent commentary on personal agency in the workplace. The Circle followed up with a dystopic view of the kind of society that can result if we lose that agency, and Cryptonomicon gave us inklings of a tool we can use as a society to regain privacy and agency in our daily lives."
+    img = "#"
+  # facebook = "#"
+  #  twitter = "https://twitter.com/jdepumpo"
+  # dribbble = "#"
+  # instagram = "#"
+  #  github = "https://github.com/jdepumpo"
+  #  linkedin = "www.linkedin.com/in/jdepumpo"
+
+# Contact section
+[params.contact]
+  enable = false
+  title = "Get In Touch"
+  message = "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident."
+
+# Footer section
+# Note here that the copyright and attribution statement must remain as part of the license agreement. If you wish to remove this, please contact freehtml5 and pay for a professional license.
+[params.footer]
+  enable = true
+  note = "<p><small>Content &copy; Joe DePumpo III. All Rights Reserved. <br>Adapted design from <a href='http://freehtml5.co/' target='_blank'>FH5co</a><br>Thanks to <a href='https://github.com/SteveLane/' target='_blank'>SteveLane</a> for a Hugo port.</small></p>"
+  github = "https://github.com/jdepumpo"
+  twitter = "https://twitter.com/jdepumpo"
+# facebook = "#"
+# vine = "#"
+  linkedin = "https://linkedin.com/in/jdepumpo/"
+# instagram = "#"
+  
