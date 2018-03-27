@@ -4,7 +4,7 @@
 
 ### About
 
-I review a number of the books we explored for class, inclcuding their themes, my thoughts, and how they compare.
+I review a number of the books we explored for class, including their themes, my thoughts, and how they compare.
 
 ### Credits
 
