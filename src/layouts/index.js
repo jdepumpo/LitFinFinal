@@ -8,10 +8,10 @@ import './index.css'
 const TemplateWrapper = ({ children }) => (
   <div>
     <Helmet
-      title="Gatsby Default Starter"
+      title="Joe DePumpo III"
       meta={[
-        { name: 'description', content: 'Sample' },
-        { name: 'keywords', content: 'sample, something' },
+        { name: 'description', content: 'Personal Website' },
+        { name: 'keywords', content: 'Blog, Website, Portfolio, Resume,' },
       ]}
     />
     <Header />
@@ -20,7 +20,7 @@ const TemplateWrapper = ({ children }) => (
       style={{
         margin: '0 auto',
         maxWidth: '85%',
-        padding: '2rem 1.45rem .5rem',
+        padding: '2rem 3rem',
         paddingTop: '1rem',
         backgroundColor: 'WhiteSmoke',
         borderRadius: '0px 0px 10px 10px',
