@@ -13,24 +13,18 @@ const Header = () => (
   <div
     style={{
       background: '#e55934',
-      marginBottom: '1.45rem',
+      marginBottom: '1.5rem',
       borderBottom: 'thick solid WhiteSmoke'
     }}
   >
     <div
       style={{
         margin: '0 auto',
-        maxWidth: '90%',
-        padding: '1.45rem 1.0875rem',
+        padding: '1rem 1%',
+        maxWidth: '75%',
+        overflow: 'auto',
       }}
     >
-        <ul className={styles.topnav}>
-        <ListLink to="/work/">
-        Work
-        </ListLink>
-        <ListLink to="/about/">Me</ListLink>
-      </ul>
-      <h1>
         <Link
           to="/"
           style={{
@@ -38,10 +32,12 @@ const Header = () => (
             textDecoration: 'none',
           }}
         >
+
          <svg width="260" height="80">
           <text x="6" y="62"
             style={{
               fontFamily:'Roboto',
+              fontWeight: 'bold',
               fontSize: 70,
               fill: '#7fb800',
             }}
@@ -52,6 +48,7 @@ const Header = () => (
             style={{
               fontFamily:'Roboto',
               fontSize: 70,
+              fontWeight: 'bold',
               fill: '#ffb400',
             }}
             >
@@ -61,14 +58,21 @@ const Header = () => (
             style={{
               fontFamily:'Roboto',
               fontSize: 70,
+              fontWeight: 'bold',
               fill: 'white',
             }}
             >
               J.F.D III
           </text>
         </svg>
+
         </Link>
-      </h1>
+      <ul className={styles.topnav}>
+        <ListLink to="/work/">
+        Work
+        </ListLink>
+        <ListLink to="/about/">Me</ListLink>
+      </ul>
     </div>
   </div>
 )

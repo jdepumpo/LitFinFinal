@@ -2,10 +2,7 @@
     float: left;
     margin-right: 1em;
     position: relative;
-    flex: 0 0 96px;
-    width: 96px;
-    height: 96px;
-  
+
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -13,4 +10,16 @@
     -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
     -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+  }
+
+  .big {
+    width: 96px;
+    height: 96px;
+    flex: 0 0 96px;
+  }
+
+  .small {
+    width: 36px;
+    height: 36px;
+    flex: 0 0 36px;
   }

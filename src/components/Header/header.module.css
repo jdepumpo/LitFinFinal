@@ -1,7 +1,6 @@
 ul.topnav {
     list-style-type: none;
-    margin: 1rem;
-    padding: 0;
+    margin: .5rem;
     overflow: hidden;
     background-color: #e55934;
     float: right;
