@@ -5,15 +5,15 @@ import HeroContainer from '../components/HeroContainer'
 
 const IndexPage = () => (
   <div>
+        <span className="pageTitle">Hello,</span>
       <HeroContainer>
+      <div style={{padding: '0 0 1rem'}}>
         <h3>I'm a</h3>
-        <span style={{fontFamily:'Monoton', fontSize:'4rem',}}>
-        web 
+        <span style={{fontFamily:'Cutive Mono', fontSize:'4rem',}}>
+        web developer
+        <span style={{fontFamily:'Cutive Mono', fontSize:'4rem',}} className="blinking-cursor">|</span>
         </span>
-        <br />
-        <span style={{fontFamily:'Monoton', fontSize:'4rem',}}>
-        developer
-        </span>
+      </div>
         <h3>interested in</h3>
         <details open>
           <summary>Front-End Development</summary>

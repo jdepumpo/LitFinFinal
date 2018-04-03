@@ -35,7 +35,7 @@ const Header = () => (
           }}
         >
 
-         <svg width="270" height="80">
+         <svg width="280" height="80">
           <text x="6" y="62"
             style={{
               fontFamily:'Monoton',
@@ -43,7 +43,7 @@ const Header = () => (
               fill: '#7fb800',
             }}
             >
-              J.F.D III
+              J.F.D.III
           </text>
           <text x="14" y="68"
             style={{
@@ -52,7 +52,7 @@ const Header = () => (
               fill: '#ffb400',
             }}
             >
-              J.F.D III
+              J.F.D.III
           </text>          
           <text x="10" y="65"
             style={{
@@ -61,7 +61,7 @@ const Header = () => (
               fill: 'white',
             }}
             >
-              J.F.D III
+              J.F.D.III
           </text>
         </svg>
 

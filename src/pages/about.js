@@ -26,7 +26,7 @@ const About = () => (
     <h2>My Interests</h2>
 
     <ul style={{padding: '.5rem 2rem',}}>
-      <Interest smallAvi={code} title='Development'> 
+      <Interest smallAvi={code} title='Coding'> 
       When I wrote my first HTML string sometime in grade school, I was amazed by the realization that you could create whatever you wanted and display it to the world. Ever since, I've challenged myself to continue learning and developing my skills. First that came in the form of basic HTML and CSS, then Wordpress development, and now more advanced Javascript. This website is a continuation of that learning - I'm building it to learn how to use React and it's component-based approach.
       </Interest>
       <Interest smallAvi={pin} title='Politics'> 

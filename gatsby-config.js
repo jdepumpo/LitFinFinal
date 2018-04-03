@@ -7,7 +7,7 @@ module.exports = {
     resolve: `gatsby-plugin-google-fonts`,
     options: {
       fonts: [
-        'Monoton', 'Roboto/:700',
+        'Monoton', 'Cutive Mono',
       ],
     }
   },
