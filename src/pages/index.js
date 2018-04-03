@@ -15,10 +15,8 @@ const IndexPage = () => (
         developer
         </span>
         <h3>interested in</h3>
-        <details>
-          <summary>
-          Front-End Development
-          </summary>
+        <details open>
+          <summary>Front-End Development</summary>
           <p>Using HTML, CSS, and Javascript, I build fast, interactive websites.</p>
         </details>
         <details>
