@@ -16,14 +16,13 @@ const Header = () => (
       marginBottom: '1.5rem',
       borderBottom: 'thick solid WhiteSmoke',
       boxShadow: '3px 3px 10px 0px #888888',
-      position: 'sticky',
     }}
   >
     <div
       style={{
         margin: '0 auto',
         padding: '1rem 1%',
-        maxWidth: '80%',
+        maxWidth: '960px',
         overflow: 'auto',
       }}
     >

@@ -5,7 +5,7 @@ import pin from '../img/pin.png'
 import pen from '../img/pen.png'
 import avi from '../components/Avatar/avatar.module.css'
 import avatar from '../img/avatar.jpg'
-import HeroContainer from '../components/HeroContainer'
+import Container from '../components/Container'
 
 const Interest = props =>
   <li style={{display: 'inline',}}>
@@ -17,11 +17,11 @@ const Interest = props =>
 const About = () => (
   <div>
     <span className="pageTitle">About Me</span>
-     <HeroContainer>
+     <Container>
           <img className={avi.avatar+' '+avi.big} src={avatar} alt="Avatar" />
           <h3 className='.pagetitle'>Hey, I'm Joe!</h3>
           <p>Welcome to my little corner of the web. I'm using this space to create a central repository of my thoughts, interests, and experiences. You'll find a brief description of my interests below, but for a more comprehensive look at my background and experiences, be sure to <Link to="/work/">check out my resume</Link>.</p>
-     </HeroContainer>
+     </Container>
     
     <h2>My Interests</h2>
 
