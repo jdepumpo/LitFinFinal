@@ -1,6 +1,7 @@
 .avatar {
     float: left;
     margin-right: 1em;
+    margin-bottom: .3em;
     position: relative;
 
     -webkit-border-radius: 50%;
@@ -19,7 +20,7 @@
   }
 
   .small {
-    width: 36px;
-    height: 36px;
-    flex: 0 0 36px;
+    width: 28px;
+    height: 28px;
+    flex: 0 0 28px;
   }

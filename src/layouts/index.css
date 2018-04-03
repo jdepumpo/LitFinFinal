@@ -10,7 +10,41 @@ body {
 }
 article,
 aside,
-details,
+details {
+  font: 1rem;
+}
+
+details > summary {
+  padding: .5rem .5rem .5rem 2rem;
+  margin-bottom: 1rem;
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.76);
+  border-radius: 5px 5px 5px 5px;
+  border: 2px solid #7fb800;
+  color: #4a6d00;
+  box-shadow: 0px 0px 10px 5px lightGrey;
+  background-image: url('../img/plus-circle.svg');
+  background-repeat: no-repeat;
+  background-size: .8rem .8rem;
+  background-position: .6rem 50%;
+}
+
+details > p {
+  border-radius: 5px 5px 5px 5px;
+  background-color: whiteSmoke;
+  padding: .5rem 1rem;
+  margin: 0 2rem 1.5rem ;
+  box-shadow: 0px 0px 10px 5px lightGrey;
+}
+/* Style the summary when details box is open */
+details[open] summary {
+  background: #7eb8001a;
+  color: #4d4d4d;
+  background-image: url('../img/minus-circle.svg');
+  background-repeat: no-repeat;
+  background-size: .8rem .8rem;
+  background-position: .6rem 50%;
+}
 figcaption,
 figure,
 footer,
@@ -65,14 +99,14 @@ h1 {
   font-size: 2em;
   margin: .67em 0;
 }
-h1.pageTitle{
-  color: Grey;
-  font-weight: bolder;
-  margin-bottom: 4rem;
-}
 .pageTitle{
-  border: 3px dotted;
-
+  border-bottom: 4px dotted #e55934;
+  padding: 1.5rem;
+  display: inline-block;
+  margin-bottom: 3rem;
+  font-family: 'Monoton';
+  font-size: 2.5rem;
+  color: rgb(43, 43, 43);
 }
 mark {
   background-color: #ff0;
@@ -209,8 +243,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  color: rgb(75, 75, 75);
+  font-family: 'Open Sans', georgia, serif;
   font-weight: normal;
   word-wrap: break-word;
   font-kerning: normal;
@@ -237,7 +271,7 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -271,7 +305,7 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -288,7 +322,7 @@ h4 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -305,7 +339,7 @@ h5 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -322,7 +356,7 @@ h6 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -339,7 +373,7 @@ hgroup {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
 }
 ul {
   margin-left: 1.45rem;
@@ -349,7 +383,7 @@ ul {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -361,7 +395,7 @@ ol {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -391,7 +425,8 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
+  text-align: justify;
 }
 figure {
   margin-left: 0;
@@ -401,7 +436,7 @@ figure {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
 }
 pre {
   margin-left: 0;
@@ -411,7 +446,7 @@ pre {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   font-size: 0.85rem;
   line-height: 1.42;
   background: hsla(0, 0%, 0%, 0.04);

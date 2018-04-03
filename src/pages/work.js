@@ -3,7 +3,7 @@ import Link from 'gatsby-link'
 
 const Work = () => (
   <div>
-    <h1>Experience</h1>
+    <span className='pageTitle'>Experience</span>
     <p>Building as we speak!</p>
   </div>
 )

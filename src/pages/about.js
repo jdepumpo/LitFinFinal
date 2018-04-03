@@ -3,22 +3,29 @@ import Link from 'gatsby-link'
 import code from '../img/code.png'
 import pin from '../img/pin.png'
 import pen from '../img/pen.png'
-import styles from '../components/Avatar/avatar.module.css'
+import avi from '../components/Avatar/avatar.module.css'
+import avatar from '../img/avatar.jpg'
+import HeroContainer from '../components/HeroContainer'
 
 const Interest = props =>
-  <li style={{ display: `inline-block`, width: '33.33%', paddingRight: '2em', verticalAlign: 'top',}}>
-    <img className={styles.avatar+' '+styles.small} src={props.smallAvi} alt={props.smallAviAlt} />
-    <h4 style={{paddingTop: '8px',}}>{props.title}</h4>
-      <p style={{float: 'left', textAlign: 'justify',}}>{props.children}</p>
+  <li style={{display: 'inline',}}>
+    <img className={avi.avatar+' '+avi.small} src={props.smallAvi} alt={props.smallAviAlt} />
+    <h3>{props.title}</h3>
+      <p style={{ paddingBottom:'1rem', marginBottom:'1rem', borderBottom: '2px solid lightGrey'}}>{props.children}</p>
   </li>
 
 const About = () => (
   <div>
-    <h1 className="pageTitle">About Me</h1>
- 
-    <h3>My Interests</h3>
+    <span className="pageTitle">About Me</span>
+     <HeroContainer>
+          <img className={avi.avatar+' '+avi.big} src={avatar} alt="Avatar" />
+          <h3 className='.pagetitle'>Hey, I'm Joe!</h3>
+          <p>Welcome to my little corner of the web. I'm using this space to create a central repository of my thoughts, interests, and experiences. You'll find a brief description of my interests below, but for a more comprehensive look at my background and experiences, be sure to <Link to="/work/">check out my resume</Link>.</p>
+     </HeroContainer>
+    
+    <h2>My Interests</h2>
 
-    <ul>
+    <ul style={{padding: '.5rem 2rem',}}>
       <Interest smallAvi={code} title='Development'> 
       When I wrote my first HTML string sometime in grade school, I was amazed by the realization that you could create whatever you wanted and display it to the world. Ever since, I've challenged myself to continue learning and developing my skills. First that came in the form of basic HTML and CSS, then Wordpress development, and now more advanced Javascript. This website is a continuation of that learning - I'm building it to learn how to use React and it's component-based approach.
       </Interest>

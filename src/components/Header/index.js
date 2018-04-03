@@ -14,14 +14,16 @@ const Header = () => (
     style={{
       background: '#e55934',
       marginBottom: '1.5rem',
-      borderBottom: 'thick solid WhiteSmoke'
+      borderBottom: 'thick solid WhiteSmoke',
+      boxShadow: '3px 3px 10px 0px #888888',
+      position: 'sticky',
     }}
   >
     <div
       style={{
         margin: '0 auto',
         padding: '1rem 1%',
-        maxWidth: '75%',
+        maxWidth: '80%',
         overflow: 'auto',
       }}
     >
@@ -33,11 +35,10 @@ const Header = () => (
           }}
         >
 
-         <svg width="260" height="80">
+         <svg width="270" height="80">
           <text x="6" y="62"
             style={{
-              fontFamily:'Roboto',
-              fontWeight: 'bold',
+              fontFamily:'Monoton',
               fontSize: 70,
               fill: '#7fb800',
             }}
@@ -46,9 +47,8 @@ const Header = () => (
           </text>
           <text x="14" y="68"
             style={{
-              fontFamily:'Roboto',
+              fontFamily:'Monoton',
               fontSize: 70,
-              fontWeight: 'bold',
               fill: '#ffb400',
             }}
             >
@@ -56,9 +56,8 @@ const Header = () => (
           </text>          
           <text x="10" y="65"
             style={{
-              fontFamily:'Roboto',
+              fontFamily:'Monoton',
               fontSize: 70,
-              fontWeight: 'bold',
               fill: 'white',
             }}
             >
