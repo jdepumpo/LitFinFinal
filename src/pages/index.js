@@ -2,22 +2,22 @@ import React from 'react'
 import Link from 'gatsby-link'
 import containerStyle from '../components/Container/container.module.css'
 import Container from '../components/Container'
-import dc from '../img/DC.svg'
+import Skyline from '../components/Skyline'
 
 const IndexPage = () => (
   <div>
-    <Container>
+    <Container className={containerStyle.whiteSmoke}>
         <h3>I'm a</h3>
         <span style={{fontFamily:'Cutive Mono', fontSize:'4rem',}}>
         web developer
-        <span style={{fontFamily:'Cutive Mono', fontSize:'4rem',}} className="blinking-cursor">|</span>
+        <span style={{fontFamily:'Cutive Mono', fontSize:'4rem'}} className="blinking-cursor">|</span>
         </span>
-        <div className='flex-container'>
-        <div><h3>based in Wahsington, D.C.</h3></div>
-        <div><img src={dc} style={{objectFit: 'contain', maxHeight:'100%', maxWidth: '100%',}} /></div>
+        <div className='flex-container' style={{paddingTop: '2rem',}}>
+        <div><Skyline /></div>
+        <div><h3>based in Washington, D.C.</h3></div>
         </div>
     </Container>
-      <Container className={containerStyle.red}>
+      <Container className={containerStyle.lightgrey + ' ' + containerStyle.containerRounded}>
           <h3>interested in</h3>
             <details open>
               <summary>Front-End Development</summary>

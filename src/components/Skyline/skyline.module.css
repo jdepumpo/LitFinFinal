@@ -1,0 +1,7 @@
+.skyline {
+    object-fit: 'contain';
+    vertical-align: bottom;
+    max-width: 100%;
+    max-height: auto;
+    fill: lightgrey;
+}

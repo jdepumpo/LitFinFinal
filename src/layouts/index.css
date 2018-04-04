@@ -17,11 +17,11 @@ details > summary {
   padding: .5rem .5rem .5rem 2rem;
   margin-bottom: 1rem;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.76);
+  background-color: rgb(238, 238, 238);
   border-radius: 5px 5px 5px 5px;
   border: 2px solid #7fb800;
   color: #4a6d00;
-  box-shadow: 0px 0px 10px 5px lightGrey;
+  box-shadow: 0px 0px 10px 5px rgb(189, 189, 189);
   background-image: url('../img/plus-circle.svg');
   background-repeat: no-repeat;
   background-size: .8rem .8rem;
@@ -30,10 +30,10 @@ details > summary {
 
 details > p {
   border-radius: 5px 5px 5px 5px;
-  background-color: whiteSmoke;
+  background-color: rgb(238, 238, 238);
   padding: .5rem 1rem;
   margin: 0 0 1.5rem 2rem;
-  box-shadow: 0px 0px 10px 5px lightGrey;
+  box-shadow: 0px 0px 10px 5px rgb(189, 189, 189);
 }
 /* Style the summary when details box is open */
 details[open] summary {
@@ -101,10 +101,10 @@ details[open] summary {
 }
 .flex-container {
   display: flex;
-  flex-flow: row nowrap;
-  align-items: flex-end;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
-
 figcaption,
 figure,
 footer,
