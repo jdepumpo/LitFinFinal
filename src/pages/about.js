@@ -6,6 +6,7 @@ import pen from '../img/pen.png'
 import avi from '../components/Avatar/avatar.module.css'
 import avatar from '../img/avatar.jpg'
 import Container from '../components/Container'
+import containerStyle from '../components/Container/container.module.css'
 
 const Interest = props =>
   <li style={{display: 'inline',}}>
@@ -16,13 +17,16 @@ const Interest = props =>
 
 const About = () => (
   <div>
+  <Container>
     <span className="pageTitle">About Me</span>
-     <Container>
-          <img className={avi.avatar+' '+avi.big} src={avatar} alt="Avatar" />
+  </Container>
+  <Container className={containerStyle.blue + ' ' + containerStyle.whiteText + ' ' + containerStyle.containerRounded}>
           <h3 className='.pagetitle'>Hey, I'm Joe!</h3>
+          <img className={avi.avatar+' '+avi.big} src={avatar} alt="Avatar" />
           <p>Welcome to my little corner of the web. I'm using this space to create a central repository of my thoughts, interests, and experiences. You'll find a brief description of my interests below, but for a more comprehensive look at my background and experiences, be sure to <Link to="/work/">check out my resume</Link>.</p>
      </Container>
     
+ <Container>
     <h2>My Interests</h2>
 
     <ul style={{padding: '.5rem 2rem',}}>
@@ -36,7 +40,7 @@ const About = () => (
       I've always enjoyed the art of effective written and oral communication. During my time as a competitive debater and extemporaneous speaker I developed and practiced a vast array of communications skills - I was constantly thinking on my feet, adapting to quickly changing circumstances, and building effective argumentation structure. In terms of written work, I edited the English-language sections of a book containing the stories of thirty Khmer Rouge survivors which ultimately was recognized by the Khmer Rouge Tribunal and was distributed to every public school and library in the country. Further, I assisted with and documented interviews of Khmer Rouge survivors with a team of Cambodian lawyers.
       </Interest>
   </ul>
-
+</Container>
   </div>
 )
 

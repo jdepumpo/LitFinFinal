@@ -8,16 +8,16 @@ import avatar from '../img/avatar.jpg'
 
 const IndexPage = () => (
   <div>
-    <Container>
+    <Container className={containerStyle.containerNoPad}>
     <div className='flex-container flex-column'>
     <div>
-        <h3 className="HeroTextHighlight">My name is</h3>
+        <h3 className="HeroTextHighlight">Hello! My name is</h3>
     </div>
     <div>
-        <h1 className="HeroText">Joe DePumpo</h1>
+        <h1 className="HeroText">Joe DePumpo.</h1>
     </div>
     <div>
-        <h3 className="HeroTextHighlight">I'm a</h3>
+        <h3 className="HeroTextHighlight">I am a</h3>
     </div>
     <div>
     <h1  className="HeroText">web developer</h1>
@@ -27,7 +27,7 @@ const IndexPage = () => (
         </div>
     </Container>
       <Container className={containerStyle.blue}>
-          <h3>interested in</h3>
+          <h3 className={containerStyle.whiteText}>I am interested in:</h3>
             <details open>
               <summary>Front-End Development</summary>
               <p>Using HTML, CSS, and Javascript, I build fast, interactive websites.</p>

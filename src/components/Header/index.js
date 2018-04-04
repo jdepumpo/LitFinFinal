@@ -21,7 +21,7 @@ const Header = () => (
     <div
       style={{
         margin: '0 auto',
-        padding: '1rem 1%',
+        padding: '1rem 0',
         maxWidth: '960px',
         overflow: 'auto',
       }}

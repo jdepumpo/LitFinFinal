@@ -1,9 +1,14 @@
 .container {
-    padding: 1rem 0 0 0;
+    padding: 1rem;
     margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.containerNoPad {
+    padding: 0;
+    margin: 0;
 }
 .containerRounded {
-    border-radius: 10px 10px 0 0;
+    border-radius: 10px;
     max-width: 1024px;
 }
 .content {
@@ -25,6 +30,9 @@
 .blue {
     background-color: dodgerblue;
     box-shadow: 3px 3px 10px 0px #888888;
+}
+.whiteText {
+    color: whitesmoke;
 }
 .greyStripe {
     background-color: #4b4b4b;
