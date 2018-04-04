@@ -12,9 +12,9 @@ const ListLink = props =>
 const Header = () => (
   <div
     style={{
-      background: '#e55934',
+      background: 'dodgerblue',
       marginBottom: '1.5rem',
-      borderBottom: 'thick solid WhiteSmoke',
+      borderBottom: 'thick solid whitesmoke',
       boxShadow: '3px 3px 10px 0px #888888',
     }}
   >

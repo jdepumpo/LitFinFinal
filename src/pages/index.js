@@ -3,21 +3,30 @@ import Link from 'gatsby-link'
 import containerStyle from '../components/Container/container.module.css'
 import Container from '../components/Container'
 import Skyline from '../components/Skyline'
+import avi from '../components/Avatar/avatar.module.css'
+import avatar from '../img/avatar.jpg'
 
 const IndexPage = () => (
   <div>
-    <Container className={containerStyle.whiteSmoke}>
-        <h3>I'm a</h3>
-        <span style={{fontFamily:'Cutive Mono', fontSize:'4rem',}}>
-        web developer
-        <span style={{fontFamily:'Cutive Mono', fontSize:'4rem'}} className="blinking-cursor">|</span>
-        </span>
-        <div className='flex-container' style={{paddingTop: '2rem',}}>
+    <Container>
+    <div className='flex-container flex-column'>
+    <div>
+        <h3 className="HeroTextHighlight">My name is</h3>
+    </div>
+    <div>
+        <h1 className="HeroText">Joe DePumpo</h1>
+    </div>
+    <div>
+        <h3 className="HeroTextHighlight">I'm a</h3>
+    </div>
+    <div>
+    <h1  className="HeroText">web developer</h1>
+    </div>
+    <div><h3 className="HeroTextHighlight">based in Washington, D.C.</h3></div>
         <div><Skyline /></div>
-        <div><h3>based in Washington, D.C.</h3></div>
         </div>
     </Container>
-      <Container className={containerStyle.lightgrey + ' ' + containerStyle.containerRounded}>
+      <Container className={containerStyle.blue}>
           <h3>interested in</h3>
             <details open>
               <summary>Front-End Development</summary>

@@ -5,7 +5,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #f5f5f5
+  background-color: whitesmoke;
 }
 article,
 aside,
@@ -17,15 +17,16 @@ details > summary {
   padding: .5rem .5rem .5rem 2rem;
   margin-bottom: 1rem;
   display: inline-block;
-  background-color: rgb(238, 238, 238);
-  border-radius: 5px 5px 5px 5px;
-  border: 2px solid #7fb800;
-  color: #4a6d00;
-  box-shadow: 0px 0px 10px 5px rgb(189, 189, 189);
   background-image: url('../img/plus-circle.svg');
   background-repeat: no-repeat;
   background-size: .8rem .8rem;
   background-position: .6rem 50%;
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid whitesmoke;
 }
 
 details > p {
@@ -33,12 +34,9 @@ details > p {
   background-color: rgb(238, 238, 238);
   padding: .5rem 1rem;
   margin: 0 0 1.5rem 2rem;
-  box-shadow: 0px 0px 10px 5px rgb(189, 189, 189);
 }
 /* Style the summary when details box is open */
 details[open] summary {
-  background: #7eb8001a;
-  color: #4d4d4d;
   background-image: url('../img/minus-circle.svg');
   background-repeat: no-repeat;
   background-size: .8rem .8rem;
@@ -104,6 +102,18 @@ details[open] summary {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+}
+.flex-column {
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.HeroText {
+  color: #e55934;
+  text-shadow: 0 2px lightgrey;
+}
+.HeroTextHighlight {
+  color: darkgrey;
+  text-shadow: 0 2px white;
 }
 figcaption,
 figure,

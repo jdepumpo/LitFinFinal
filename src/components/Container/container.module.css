@@ -3,7 +3,7 @@
     margin: 0 auto;
 }
 .containerRounded {
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0;
     max-width: 1024px;
 }
 .content {
@@ -22,7 +22,11 @@
 .lightgrey {
     background-color: lightgrey;
 }
+.blue {
+    background-color: dodgerblue;
+    box-shadow: 3px 3px 10px 0px #888888;
+}
 .greyStripe {
-    background-color: #d3d3d3;
+    background-color: #4b4b4b;
     background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 }
