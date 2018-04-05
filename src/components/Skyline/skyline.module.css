@@ -1,7 +1,9 @@
 .skyline {
     object-fit: 'contain';
     vertical-align: bottom;
-    max-width: 600px;
+    max-width: 500px;
     max-height: auto;
     fill: dodgerblue;
+    margin: 0;
+    padding: 0;
 }

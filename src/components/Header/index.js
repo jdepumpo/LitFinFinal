@@ -21,9 +21,9 @@ const Header = () => (
     <div
       style={{
         margin: '0 auto',
-        padding: '1rem 0',
+        padding: '1rem 1rem',
         maxWidth: '960px',
-        overflow: 'auto',
+        overflow: 'hidden',
       }}
     >
         <Link

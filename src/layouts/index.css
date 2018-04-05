@@ -103,10 +103,26 @@ details[open] summary {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
+  padding: .7rem 0;
+  margin-bottom: 0rem;
+}
+#flex-container-bottom {border-bottom: 2px solid lightgrey; padding: .7rem 0 1.5rem 0}
+
+img.flex-container {
+  object-fit: contain;
+  max-width: 100px;
+  max-height: auto;
 }
 .flex-column {
   flex-direction: column;
   flex-wrap: nowrap;
+  text-align: center;
+}
+.flex-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
 }
 .HeroText {
   color: dodgerblue;
