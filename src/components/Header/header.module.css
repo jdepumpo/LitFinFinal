@@ -1,9 +1,16 @@
+.logo {
+    font-family: 'Monoton';
+    font-size: 60px;
+}
+#first {fill: #7fb800;}
+#second {fill:#ffb400;}
+#third {fill: white;}
+
 ul.topnav {
     list-style-type: none;
     margin: .5rem;
     float: right;
 }
-
 ul.topnav li {float: right;}
 
 ul.topnav li a {
@@ -18,7 +25,7 @@ ul.topnav li a {
     border: 2px solid whitesmoke;
 }
 ul.topnav li a:hover {
-    background-color: blue;
+    background-color: deepskyblue;
 }
 
 @media screen and (max-width: 600px){

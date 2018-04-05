@@ -5,6 +5,7 @@ import Container from '../components/Container'
 import Skyline from '../components/Skyline'
 import avi from '../components/Avatar/avatar.module.css'
 import avatar from '../img/avatar.jpg'
+import laptop from'../img/laptop.png'
 
 const IndexPage = () => (
   <div>
@@ -14,17 +15,20 @@ const IndexPage = () => (
         <h3 className="HeroTextHighlight">Hello! My name is</h3>
     </div>
     <div>
-        <h1 className="HeroText">Joe DePumpo.</h1>
+        <span className="pageTitleNoBorder">Joe DePumpo.</span>
     </div>
     <div>
         <h3 className="HeroTextHighlight">I am a</h3>
     </div>
     <div>
-    <h1  className="HeroText">web developer</h1>
+      <img src={laptop} />
+    </div>
+    <div>
+    <span className="pageTitleNoBorder">web developer</span>
     </div>
     <div><h3 className="HeroTextHighlight">based in Washington, D.C.</h3></div>
-        <div><Skyline /></div>
-        </div>
+    <div><Skyline /></div>
+    </div>
     </Container>
       <Container className={containerStyle.blue}>
           <h3 className={containerStyle.whiteText}>I am interested in:</h3>
