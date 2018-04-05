@@ -1,0 +1,40 @@
+.container {
+    padding: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+}
+.containerNoPad {
+    padding: 0;
+    margin: 0;
+}
+.containerRounded {
+    border-radius: 10px;
+    max-width: 1024px;
+}
+.content {
+    margin: 0 auto;
+    max-width: 960px;
+}
+.whiteSmoke {
+    background-color: whiteSmoke;
+}
+.green {
+    background-color: #7fb800;
+}
+.red {
+    background-color: #e55934;
+}
+.lightgrey {
+    background-color: lightgrey;
+}
+.blue {
+    background-color: dodgerblue;
+    box-shadow: 3px 3px 10px 0px #888888;
+}
+.whiteText {
+    color: whitesmoke;
+}
+.greyStripe {
+    background-color: #4b4b4b;
+    background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+}

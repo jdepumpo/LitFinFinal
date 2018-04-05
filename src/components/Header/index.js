@@ -12,19 +12,18 @@ const ListLink = props =>
 const Header = () => (
   <div
     style={{
-      background: '#e55934',
+      background: 'dodgerblue',
       marginBottom: '1.5rem',
-      borderBottom: 'thick solid WhiteSmoke',
+      borderBottom: 'thick solid whitesmoke',
       boxShadow: '3px 3px 10px 0px #888888',
-      position: 'sticky',
     }}
   >
     <div
       style={{
         margin: '0 auto',
-        padding: '1rem 1%',
-        maxWidth: '80%',
-        overflow: 'auto',
+        padding: '1rem 1rem',
+        maxWidth: '960px',
+        overflow: 'hidden',
       }}
     >
         <Link
@@ -36,31 +35,13 @@ const Header = () => (
         >
 
          <svg width="280" height="80">
-          <text x="6" y="62"
-            style={{
-              fontFamily:'Monoton',
-              fontSize: 70,
-              fill: '#7fb800',
-            }}
-            >
+          <text x="7" y="63" className={styles.logo} id={styles.first}>
               J.F.D.III
           </text>
-          <text x="14" y="68"
-            style={{
-              fontFamily:'Monoton',
-              fontSize: 70,
-              fill: '#ffb400',
-            }}
-            >
+          <text x="13" y="67" className={styles.logo} id={styles.second}>
               J.F.D.III
           </text>          
-          <text x="10" y="65"
-            style={{
-              fontFamily:'Monoton',
-              fontSize: 70,
-              fill: 'white',
-            }}
-            >
+          <text x="10" y="65" className={styles.logo} id={styles.third}>
               J.F.D.III
           </text>
         </svg>

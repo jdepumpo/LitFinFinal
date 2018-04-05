@@ -5,8 +5,7 @@ html {
 }
 body {
   margin: 0;
-  background-color: #d3d3d3;
-  background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='1' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
+  background-color: whitesmoke;
 }
 article,
 aside,
@@ -18,28 +17,27 @@ details > summary {
   padding: .5rem .5rem .5rem 2rem;
   margin-bottom: 1rem;
   display: inline-block;
-  background-color: rgba(255, 255, 255, 0.76);
-  border-radius: 5px 5px 5px 5px;
-  border: 2px solid #7fb800;
-  color: #4a6d00;
-  box-shadow: 0px 0px 10px 5px lightGrey;
   background-image: url('../img/plus-circle.svg');
   background-repeat: no-repeat;
   background-size: .8rem .8rem;
   background-position: .6rem 50%;
+  color: whitesmoke;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 2px solid whitesmoke;
 }
 
 details > p {
   border-radius: 5px 5px 5px 5px;
-  background-color: whiteSmoke;
+  background-color: rgb(238, 238, 238);
   padding: .5rem 1rem;
   margin: 0 0 1.5rem 2rem;
-  box-shadow: 0px 0px 10px 5px lightGrey;
+  box-shadow: 3px 3px 10px 0px rgb(12, 87, 161);
 }
 /* Style the summary when details box is open */
 details[open] summary {
-  background: #7eb8001a;
-  color: #4d4d4d;
   background-image: url('../img/minus-circle.svg');
   background-repeat: no-repeat;
   background-size: .8rem .8rem;
@@ -100,6 +98,41 @@ details[open] summary {
     color: black;
   }
 }
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: .7rem 0;
+  margin-bottom: 0rem;
+}
+#flex-container-bottom {border-bottom: 2px solid lightgrey; padding: .7rem 0 1.5rem 0}
+
+img.flex-container {
+  object-fit: contain;
+  max-width: 100px;
+  max-height: auto;
+}
+.flex-column {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+.flex-row {
+  flex-direction: row;
+  flex-wrap: wrap;
+  text-align: center;
+  align-items: center;
+}
+.HeroText {
+  color: dodgerblue;
+  text-shadow: 0 2px white;
+}
+.HeroTextHighlight {
+  color: darkgrey;
+  text-shadow: 0 2px white;
+  margin: 0;
+}
 figcaption,
 figure,
 footer,
@@ -158,10 +191,17 @@ h1 {
   border-bottom: 4px dotted #e55934;
   padding: 1.5rem;
   display: inline-block;
-  margin-bottom: 3rem;
+  margin-bottom: .5rem;
   font-family: 'Monoton';
   font-size: 2.5rem;
-  color: rgb(43, 43, 43);
+  color: dodgerblue;
+  text-shadow: 0 2px white;
+}
+.pageTitleNoBorder {
+  font-family: 'Monoton';
+  font-size: 2.5rem;
+  color: dodgerblue;
+  text-shadow: 0 2px white;
 }
 mark {
   background-color: #ff0;
@@ -338,12 +378,12 @@ h1 {
 h2 {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 1rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.7rem;
+  margin-bottom: 1rem;
   color: inherit;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -355,7 +395,7 @@ h2 {
 h3 {
   margin-left: 0;
   margin-right: 0;
-  margin-top: 0;
+  margin-top: 1rem;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;

@@ -1,21 +1,31 @@
+.logo {
+    font-family: 'Monoton';
+    font-size: 60px;
+}
+#first {fill: #7fb800;}
+#second {fill:#ffb400;}
+#third {fill: white;}
+
 ul.topnav {
     list-style-type: none;
     margin: .5rem;
-    overflow: hidden;
-    background-color: #e55934;
     float: right;
 }
-
 ul.topnav li {float: right;}
 
 ul.topnav li a {
     display: inline-block;
-    color: lavenderblush;
+    color: whitesmoke;
     text-align: center;
     padding: 12px 16px;
     text-decoration: none;
     font-family: Roboto;
     font-size: 1.2rem;
+    font-weight: bold;
+    border: 2px solid whitesmoke;
+}
+ul.topnav li a:hover {
+    background-color: deepskyblue;
 }
 
 @media screen and (max-width: 600px){
