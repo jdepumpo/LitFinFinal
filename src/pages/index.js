@@ -13,24 +13,24 @@ const IndexPage = () => (
     <Container className={containerStyle.containerNoPad}>
     <div className='flex-container flex-column'>
     <div>
-        <h3 className="flex-container HeroTextHighlight">Hello! My name is</h3>
+        <h3 className="HeroTextHighlight">Hello! My name is</h3>
     </div>
     <div>
     <img className={avi.index+' '+avi.big} src={avatar} alt="Avatar" />
     </div>
     <div>
-        <span className="flex-container pageTitleNoBorder" id="flex-container-bottom">Joe DePumpo.</span>
+        <h2 className="pageTitleNoBorder" id="flex-container-bottom">Joe DePumpo.</h2>
     </div>
     <div>
-        <h3 className="flex-container HeroTextHighlight">I am a</h3>
+        <h3 className="HeroTextHighlight">I am a</h3>
     </div>
     <div>
       <img src={laptop} className="flex-container" />
     </div>
     <div>
-    <span className="flex-container pageTitleNoBorder">web developer</span>
+    <h2 className="pageTitleNoBorder">web developer</h2>
     </div>
-    <div><h3 className="flex-container HeroTextHighlight">based in Washington, D.C.</h3></div>
+    <div><h3 className="HeroTextHighlight">based in Washington, D.C.</h3></div>
   </div>
     <div className="flex-column"><Skyline /></div>
       </Container>

@@ -2,6 +2,8 @@
     padding: 1rem;
     margin: 0 auto;
     margin-bottom: 1rem;
+    margin: 0 1/2;
+    align-content: center;
 }
 .containerNoPad {
     padding: 0;
@@ -10,7 +12,9 @@
 .containerRounded {
     border-radius: 10px;
     max-width: 1024px;
+    margin: 1.5rem;
 }
+
 .content {
     margin: 0 auto;
     max-width: 960px;
@@ -28,7 +32,7 @@
     background-color: lightgrey;
 }
 .blue {
-    background-color: dodgerblue;
+    background-image: linear-gradient( 160deg, dodgerblue 30%, rgb(36, 92, 221) 100%);
     box-shadow: 3px 3px 10px 0px #888888;
 }
 .whiteText {

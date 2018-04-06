@@ -1,7 +1,6 @@
 .avatar {
     float: left;
-    margin-right: 1em;
-    margin-bottom: .3em;
+    margin-right: 1rem;
     position: relative;
 
     -webkit-border-radius: 50%;
@@ -13,7 +12,6 @@
     box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
   }
   .index {
-    margin-bottom:.2rem;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     border-radius: 50%;
@@ -28,7 +26,13 @@
     height: 96px;
     flex: 0 0 96px;
   }
-
+  @media screen and (max-width: 600px){
+    .big {    
+      width: 64px;
+      height: 64px;
+      flex: 0 0 64px;
+    }
+  }
   .small {
     width: 28px;
     height: 28px;

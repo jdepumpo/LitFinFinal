@@ -24,7 +24,7 @@ details > summary {
   color: whitesmoke;
   text-decoration: none;
   font-family: Roboto;
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
   border: 2px solid whitesmoke;
 }
@@ -103,14 +103,12 @@ details[open] summary {
   align-items: center;
   flex-direction: row;
   flex-wrap: nowrap;
-  padding: .7rem 0;
-  margin-bottom: 0rem;
 }
-#flex-container-bottom {border-bottom: 2px solid lightgrey; padding: .7rem 0 1.5rem 0}
+#flex-container-bottom {border-bottom: 2px solid lightgrey; padding: 0 1rem 1rem 1rem}
 
 img.flex-container {
   object-fit: contain;
-  max-width: 100px;
+  max-width: 80px;
   max-height: auto;
 }
 .flex-column {
@@ -131,7 +129,6 @@ img.flex-container {
 .HeroTextHighlight {
   color: darkgrey;
   text-shadow: 0 2px white;
-  margin: 0;
 }
 figcaption,
 figure,
@@ -189,19 +186,17 @@ h1 {
 }
 .pageTitle{
   border-bottom: 4px dotted #e55934;
-  padding: 1.5rem;
+  padding: 0 1rem 1rem 1rem;
   display: inline-block;
-  margin-bottom: .5rem;
   font-family: 'Monoton';
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: dodgerblue;
   text-shadow: 0 2px white;
 }
 .pageTitleNoBorder {
-  font-family: 'Monoton';
-  font-size: 2.5rem;
+  font-weight: bold;
   color: dodgerblue;
-  text-shadow: 0 2px white;
+  text-shadow: 0 2px rgba(0, 102, 255, 0.185);
 }
 mark {
   background-color: #ff0;
@@ -471,7 +466,7 @@ hgroup {
   margin-bottom: 1rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 0;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
