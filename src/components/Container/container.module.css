@@ -2,7 +2,7 @@
     padding: 1rem;
     margin: 0 auto;
     margin-bottom: 1rem;
-    margin: 0 1/2;
+    margin: 1 auto;
     align-content: center;
 }
 .containerNoPad {
@@ -12,9 +12,11 @@
 .containerRounded {
     border-radius: 10px;
     max-width: 1024px;
-    margin: 1 auto;
+    margin: 0 auto;
 }
-
+@media screen and (max-width: 1070px){
+   .containerRounded {margin: 0 1rem;}
+}
 .content {
     margin: 0 auto;
     max-width: 960px;
