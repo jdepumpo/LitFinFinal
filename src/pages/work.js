@@ -52,10 +52,30 @@ My articles regularly had the highest engagement rates on The Globe’s website 
             </ul>
       </WorkTables>
       <WorkTables title='Editor &amp; Research Intern' company='Cambodian Human Rights Action Committee' date='May 2016 — August 2016' city='Phnom Penh, Cambodia'> 
-          Coming.
+          <ul>
+            <li>
+Editor of The Unheard Stories of Civil Parties Participating in the Extraordinary Chambers in the Courts of Cambodia which tells the stories of 30 Khmer Rouge victims who provided testimony to the Tribunal. It was recognized by the Court as an official reparation to and the book was distributed to every public library and public school in Cambodia.
+            </li>
+            <li>
+Assisted documenting interviews with Khmer Rouge civil party victims in order to collect testimony for the Court and to ensure the accuracy of the English language translations of the storybook.
+            </li>
+            <li>
+Assisted CHRAC’s legal adviser as she represented more than 50 civil party victims at the Tribunal, including documenting live interviews in English, and working with official Court records.
+            </li>
+           </ul>
       </WorkTables>
-      <WorkTables title='Development Intern' company='BroadcastVision'> 
-          Coming.
+      <WorkTables title='Development Intern' company='BroadcastVision' date='June 2015 — July 2015' city='Denver, CO'> 
+          <ul>
+            <li>
+Identified areas where legacy analog hardware could be replaced with smaller, Wi-Fi enabled digital hardware. These efforts helped spawn the creation of an entirely new product line. This new product accomplished what once took multiple bulky, interference-prone analog transmitters and recievers, in a single, pocket-sized device.
+            </li>
+            <li>
+This new product line became the best-seller of the AudioFetch division, and eliminated a number of installation headaches and customer pain points.
+            </li>
+            <li>
+            Designed new cost effective packaging for AudioFetch products that complied with labeling laws and regulations.
+            </li>
+          </ul>
       </WorkTables>
   </ul>
 </Container>
