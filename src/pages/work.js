@@ -22,8 +22,6 @@ const Work = () => (
   <Container className={containerStyle.blue + ' ' + containerStyle.whiteText + ' ' + containerStyle.containerRounded}>
           <h3 className='.pagetitle'>My resume.</h3>
           <p>Download a <Link to="#">PDF copy</Link>.</p>
-          <span>GitHub icon placeholder</span>
-          <span>LinkedIn icon placeholder</span>
      </Container>
     
  <Container>
