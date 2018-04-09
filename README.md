@@ -2,4 +2,4 @@
 
 Repository for my personal website.
 
-Based on [Gatsby.js](https://gatsby.js/)
+Developed with [Gatsby.js](https://gatsby.js/)
