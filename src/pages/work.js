@@ -3,6 +3,7 @@ import Link from 'gatsby-link'
 import Container from '../components/Container'
 import containerStyle from '../components/Container/container.module.css'
 import globe from'../img/globe.png'
+import chrac from '../img/chrac.jpg'
 
 const WorkTables = props =>
   <li style={{display: 'inline',}}>
@@ -27,7 +28,7 @@ const Work = () => (
     
  <Container>
     <ul style={{padding: '1rem 1rem',}}>
-      <WorkTables title='Web Developer &amp; Contributing Writer' company='The Globe GWU' date='May 2016 — August 2016' city='Phnom Penh, Cambodia' avi={globe}> 
+      <WorkTables title='Web Developer &amp; Contributing Writer' company='The Globe GWU' date='October 2015 — Present' city='Washington, D.C.' avi={globe}> 
           <b>As a web developer:</b>
             <ul>
               <li>
@@ -50,7 +51,7 @@ My articles regularly had the highest engagement rates on The Globe’s website 
             </li>
             </ul>
       </WorkTables>
-      <WorkTables title='Editor &amp; Research Intern' company='Cambodian Human Rights Action Committee'> 
+      <WorkTables title='Editor &amp; Research Intern' company='Cambodian Human Rights Action Committee' date='May 2016 — August 2016' city='Phnom Penh, Cambodia'> 
           Coming.
       </WorkTables>
       <WorkTables title='Development Intern' company='BroadcastVision'> 
