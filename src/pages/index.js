@@ -38,15 +38,15 @@ const IndexPage = () => (
           <h3 className={containerStyle.whiteText}>I am interested in:</h3>
             <details open>
               <summary>Front-End Development</summary>
-              <p>Using HTML, CSS, and Javascript, I build fast, interactive websites.</p>
+              <p>I build beautiful, functional, and fast websites using HTML, CSS, and Javascript.</p>
             </details>
             <details>
               <summary>UI/UX Design</summary>
-              <p>Planning and iterating a site's structure and layout. Once the proper information architecture is in place, I design the visual layer to create a beautiful user experience.</p>
+              <p>Laying out and designing each component and it's functionality is a vital part of developing web apps.</p>
             </details>
             <details>
               <summary>Branding</summary>
-              <p>While I focus on interactive development, occasionally I dabble in branding and collateral design.</p>
+              <p>While I mainly focus on interactive development, occasionally I dabble in branding and collateral design.</p>
             </details>
         </Container>
   </div>
