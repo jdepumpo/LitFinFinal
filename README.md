@@ -1,5 +1,5 @@
 # https://jfd3.us/
 
-Repository for personal website.
+Repository for my personal website.
 
-Based on [Gatsby.js](https://gatsbyjs.org/)
+Based on [Gatsby.js](https://gatsby.js/)

@@ -10,22 +10,8 @@ const ListLink = props =>
   </li>
 
 const Header = () => (
-  <div
-    style={{
-      background: 'dodgerblue',
-      marginBottom: '1.5rem',
-      borderBottom: 'thick solid whitesmoke',
-      boxShadow: '3px 3px 10px 0px #888888',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        padding: '1rem 1rem',
-        maxWidth: '960px',
-        overflow: 'hidden',
-      }}
-    >
+  <div className={styles.header}>
+    <div className={styles.headerContainer}>
         <Link
           to="/"
           style={{

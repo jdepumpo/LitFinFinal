@@ -12,7 +12,7 @@ const Interest = props =>
   <li style={{display: 'inline',}}>
     <img className={avi.avatar+' '+avi.small} src={props.smallAvi} alt={props.smallAviAlt} />
     <h3>{props.title}</h3>
-      <p style={{ paddingBottom:'1rem', marginBottom:'1rem', borderBottom: '2px solid lightGrey'}}>{props.children}</p>
+      <p style={{ padding:'0 0 1rem 0', margin:'1rem', borderBottom: '2px solid lightGrey'}}>{props.children}</p>
   </li>
 
 const About = () => (
@@ -29,7 +29,7 @@ const About = () => (
  <Container>
     <h2>My Interests</h2>
 
-    <ul style={{padding: '.5rem 2rem',}}>
+    <ul style={{padding: '1rem 1rem',}}>
       <Interest smallAvi={code} title='Coding'> 
       When I wrote my first HTML string sometime in grade school, I was amazed by the realization that you could create whatever you wanted and display it to the world. Ever since, I've challenged myself to continue learning and developing my skills. First that came in the form of basic HTML and CSS, then Wordpress development, and now more advanced Javascript. This website is a continuation of that learning - I'm building it to learn how to use React and it's component-based approach.
       </Interest>
