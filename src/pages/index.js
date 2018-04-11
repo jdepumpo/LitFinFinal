@@ -6,6 +6,10 @@ import Skyline from '../components/Skyline'
 import avi from '../components/Avatar/avatar.module.css'
 import avatar from '../img/avatar.jpg'
 import laptop from'../img/laptop.png'
+import html from'../img/html.svg'
+import css from'../img/css.svg'
+import js from'../img/js.svg'
+import react from'../img/react.svg'
 
 
 const IndexPage = () => (
@@ -38,7 +42,14 @@ const IndexPage = () => (
           <h3 className={containerStyle.whiteText}>I am interested in:</h3>
             <details open>
               <summary>Front-End Development</summary>
-              <p>Using HTML, CSS, and Javascript, I build fast, interactive websites.</p>
+              <p>Using HTML, CSS, and Javascript, I build fast, interactive websites.
+                <div className="flex-row">
+                  <img className="flex-row" title="HTML5" src={html} />
+                  <img className="flex-row" title="CSS3"src={css} />
+                  <img className="flex-row" title="Javascript" src={js} />
+                  <img className="flex-row" title="React" src={react} />
+                </div>
+              </p>
             </details>
             <details>
               <summary>UI/UX Design</summary>
